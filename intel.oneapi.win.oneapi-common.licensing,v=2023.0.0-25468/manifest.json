@@ -1,0 +1,56 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/oneapi_common/win/",
+    "display": {
+        "localized": [
+            {
+                "description": "oneAPI Common",
+                "language": "en-us",
+                "title": "oneAPI Common",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.oneapi-common.licensing",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 569344,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 89793
+    },
+    "msiInfo": {
+        "productCode": "{34CE61FD-F276-4894-A9FF-605598D7E425}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25468",
+        "upgradeCode": "{F910CA14-EAA2-4B9B-9C79-821BEFFC82CE}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "5480aad88bfc500b94826e721c15dd2ed5dc4b754073dbde092e603ec9fcfbd0d17a97ff88743fb394b25572d29ee2bc",
+            "size": 36080,
+            "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/data1.cab"
+        },
+        {
+            "fileName": "oneapi-common-licensing-for-installer_p_2023.0.0.25468.msi",
+            "sha384": "52ab4b90400c296875c215ae45b07f3d8393ceffe8d52af3fa26e9b4f5ab5dd795dd05c295a0f54e24fb28db7c4ff269",
+            "size": 569344,
+            "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/oneapi-common-licensing-for-installer_p_2023.0.0.25468.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2023.0.0-25468"
+}

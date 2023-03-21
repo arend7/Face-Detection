@@ -1,0 +1,116 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/compiler_ide/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25839]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "IDE C++ VC Perflib for BT Visual Studio 2019",
+                "language": "en-us",
+                "title": "IDE C++ VC Perflib for BT Visual Studio 2019",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2019",
+    "ideIntegration": {
+        "visualStudio": {
+            "supportedBuildToolsVersion": [
+                "2019"
+            ],
+            "supportedVersion": [
+                "2019"
+            ]
+        }
+    },
+    "installCondition": {
+        "expression": "NEED_VS2019_BuildTools_INTEGRATION && VS2019_BuildTools_VC_Installed"
+    },
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 356352,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 179453
+    },
+    "msiInfo": {
+        "productCode": "{5EE87A07-6898-4173-B25F-BEBBA3331B1F}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25839",
+        "upgradeCode": "{5E0D8716-595A-47AF-B263-8F697C202019}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "VS2017BT_DIR": "[VS2017_BuildTools_InstallDir]",
+        "VS2019BT_DIR": "[VS2019_BuildTools_InstallDir]"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL",
+        "VS2017BT_DIR": "[VS2017_BuildTools_InstallDir]",
+        "VS2019BT_DIR": "[VS2019_BuildTools_InstallDir]"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "b059fa517ae1bb300f430a496b117d5dc0294923e1abb2047ed11dbcc4b8b65041f8510fafe521ea439b1070e64ac13f",
+            "size": 37484,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2019,v=2023.0.0-25839/data1.cab"
+        },
+        {
+            "fileName": "ide_vcperflib_bt_vs2019_p_2023.0.0.25839.msi",
+            "sha384": "3eb1b46b7b8e136742381de89783d508155e5639698b17276f730d5c43912216fc47deb1dd2a708f65037a531fa3157b",
+            "size": 356352,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2019,v=2023.0.0-25839/ide_vcperflib_bt_vs2019_p_2023.0.0.25839.msi"
+        }
+    ],
+    "preRequisites": {
+        "custom": [
+            {
+                "executeAtMode": [
+                    "install"
+                ],
+                "executeAtSequence": [
+                    "after-component-selection"
+                ],
+                "expression": "!VS2019_IsComplete",
+                "ids": [
+                    {
+                        "id": "vsIncomplete",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ],
+        "messages": [
+            {
+                "id": "vsIncomplete",
+                "localized": [
+                    {
+                        "consoleDescription": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2019 during installation. Please, contact customer support: http://www.intel.com/software/products/support",
+                        "description": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2019 during installation. Please, contact customer support (<a href=\"http://www.intel.com/software/products/support\">http://www.intel.com/software/products/support</a>).",
+                        "language": "en-us",
+                        "title": "Incomplete installation of Microsoft Visual Studio* 2019 is detected."
+                    }
+                ]
+            }
+        ],
+        "visualStudioRunning": [
+            "2019"
+        ]
+    },
+    "type": "msi",
+    "version": "2023.0.0-25839"
+}

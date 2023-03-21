@@ -1,0 +1,143 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/compiler_ide/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25839]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "IDE C++ VC Perflib for Visual Studio 2022",
+                "language": "en-us",
+                "title": "IDE C++ VC Perflib for Visual Studio 2022",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022",
+    "ideIntegration": {
+        "visualStudio": {
+            "supportedVersion": [
+                "2022"
+            ],
+            "vsixPackages": [
+                {
+                    "certificateFileNames": [
+                        "[Payload]/certificates/Sectigo.cer",
+                        "[Payload]/certificates/Sectigo_Public_Code_Signing_Root_R46.cer",
+                        "[Payload]/certificates/Sectigo_Public_Code_Signing_CA_R36.cer"
+                    ],
+                    "displayName": "Intel Libraries for oneAPI Integration",
+                    "fileName": "[InstallDir]/compiler_ide/2023.0.0/windows/ide_support/VS17/C++/OneAPIPerfLibForVC.vsix",
+                    "id": "E969DF07-829A-4758-8FA3-4497F8B3822A",
+                    "vsVersion": "2022"
+                }
+            ]
+        }
+    },
+    "installCondition": {
+        "expression": "NEED_VS2022_INTEGRATION && VS2022_VC_Installed"
+    },
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 352256,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 140906
+    },
+    "msiInfo": {
+        "productCode": "{0E4A1137-7BC4-455A-8B82-56C4114F0D92}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25839",
+        "upgradeCode": "{6E595E74-6345-4821-ADCF-C4D4256B2022}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo.cer",
+            "sha384": "b1b597299cc34ecb78b492a6b069b4ddf54dd01380113985f5b6f48475e3bc61e8f8523d6370b496a162836d807984ba",
+            "size": 1542,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022,v=2023.0.0-25839/certificates/Sectigo.cer"
+        },
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo_Public_Code_Signing_CA_R36.cer",
+            "sha384": "411cab5eb7fa265ef14ce7384a03c29a5e0d1a4465c4f624a15669387939ba87cf64829e41fdf6359a8169a898df4e77",
+            "size": 2210,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022,v=2023.0.0-25839/certificates/Sectigo_Public_Code_Signing_CA_R36.cer"
+        },
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo_Public_Code_Signing_Root_R46.cer",
+            "sha384": "c5c041ba9d9a525519b3426d283a4719d0889e214ed8470a57cb85bce5dd7d091ffe14b66ae1a1536184300352806571",
+            "size": 1976,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022,v=2023.0.0-25839/certificates/Sectigo_Public_Code_Signing_Root_R46.cer"
+        },
+        {
+            "fileName": "data1.cab",
+            "sha384": "cee800d1fdb5b37c1ef5f68054bc825fc7d1e8f5cf96395112afee37974113603ad023d79e656c0cf295b112634463a3",
+            "size": 121333,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022,v=2023.0.0-25839/data1.cab"
+        },
+        {
+            "fileName": "ide_vcperflib_vsix_vs2022_p_2023.0.0.25839.msi",
+            "sha384": "f57be2b0c8ae97bcfddd7963d8d025bf8b811209b35796f8c0fb88869b0270b01a618255123b60c21b295d0db9ac5ace",
+            "size": 352256,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2022,v=2023.0.0-25839/ide_vcperflib_vsix_vs2022_p_2023.0.0.25839.msi"
+        }
+    ],
+    "preRequisites": {
+        "custom": [
+            {
+                "executeAtMode": [
+                    "install"
+                ],
+                "executeAtSequence": [
+                    "after-component-selection"
+                ],
+                "expression": "!VS2022_IsComplete",
+                "ids": [
+                    {
+                        "id": "vsIncomplete",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ],
+        "messages": [
+            {
+                "id": "vsIncomplete",
+                "localized": [
+                    {
+                        "consoleDescription": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2022 during installation. Please, contact customer support: http://www.intel.com/software/products/support",
+                        "description": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2022 during installation. Please, contact customer support (<a href=\"http://www.intel.com/software/products/support\">http://www.intel.com/software/products/support</a>).",
+                        "language": "en-us",
+                        "title": "Incomplete installation of Microsoft Visual Studio* 2022 is detected."
+                    }
+                ]
+            }
+        ],
+        "visualStudioRunning": [
+            "2022"
+        ]
+    },
+    "type": "msi",
+    "version": "2023.0.0-25839"
+}

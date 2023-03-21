@@ -1,0 +1,73 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/dal/win/",
+    "dependencies": [
+        {
+            "id": "intel.oneapi.win.oneapi-common.vars",
+            "type": "recommended",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.licensing",
+            "type": "required",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.condaindex",
+            "type": "recommended",
+            "version": "[2023.0.0-25469,)"
+        }
+    ],
+    "display": {
+        "localized": [
+            {
+                "description": "Boost machine learning and data analytics performance.",
+                "language": "en-us",
+                "title": "Intel® oneAPI Data Analytics Library",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.dal.daal4py",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 262144,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 7966085
+    },
+    "msiInfo": {
+        "productCode": "{FF34C6FA-A17B-47A3-9688-30422D6A7FBD}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25934",
+        "upgradeCode": "{C156870F-44F8-4AFB-B03E-34AE43682A42}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "1f900e4ad68be09cb20c779e0eecb131d2b765d73fffc531f8c98bb3ce278553e3cc05597c99c021977b69ab142f0a4a",
+            "size": 7961270,
+            "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/data1.cab"
+        },
+        {
+            "fileName": "oneapi-dal-daal4py-for-installer_p_2023.0.0.25934.msi",
+            "sha384": "6bde5d36a4c4c4d651dbd60f63d35dc9f75a03e99027fd5840ee6cea4af553a6bf61586554dcaad938bb6da5c06f943a",
+            "size": 262144,
+            "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/oneapi-dal-daal4py-for-installer_p_2023.0.0.25934.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2023.0.0-25934"
+}

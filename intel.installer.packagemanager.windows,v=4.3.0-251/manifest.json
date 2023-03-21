@@ -1,0 +1,33 @@
+{
+    "baseUrl": "[base_url]/",
+    "dataBaseLocation": {
+        "perMachine": "[CommonApplicationData]/Intel/InstallerCache/packagemanager.db",
+        "perUser": "[LocalApplicationData]/Intel/InstallerCache/packagemanager.db"
+    },
+    "id": "intel.installer.packagemanager.windows",
+    "installDir": {
+        "fixed": true,
+        "windows": {
+            "perMachine": "[ProgramFiles32Folder]/Intel/PackageManager/1.0",
+            "perUser": "[UserHome]/Intel/PackageManager/1.0"
+        }
+    },
+    "installSize": {
+        "installDir": 18018584
+    },
+    "logFolderPrefix": "intel_packagemanager",
+    "payloads": [
+        {
+            "fileName": "packagemanager.zip",
+            "sha384": "8d852a7d67f49032f22832938b8ff698c1a7ca97c8ad90162daa19d637f73104fb49ff83dfa26ef043c412abc1ad1ad6",
+            "size": 6329961,
+            "url": "[base_url]/intel.installer.packagemanager.windows,v=4.3.0-251/packagemanager.zip"
+        }
+    ],
+    "type": "packagemanager",
+    "unifiedPackagesCacheLocation": {
+        "perMachine": "[CommonApplicationData]/Intel/InstallerCache/PackagesCache",
+        "perUser": "[LocalApplicationData]/Intel/InstallerCache/PackagesCache"
+    },
+    "version": "4.3.0-251"
+}

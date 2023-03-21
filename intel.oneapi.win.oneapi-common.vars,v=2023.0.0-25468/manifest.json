@@ -1,0 +1,64 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/oneapi_common/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25468]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "oneAPI Common",
+                "language": "en-us",
+                "title": "oneAPI Common",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.oneapi-common.vars",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 991232,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 19443
+    },
+    "msiInfo": {
+        "productCode": "{CFC55E2A-16EC-4D2A-BBD0-238660DA88A6}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25468",
+        "upgradeCode": "{1A330BC1-2A15-4994-A7C5-FF2730F297F6}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "dbf2346ce9ddde6bd01e0cf5cedeec0ecc33cdd47674f5953e951e779b1ae65809eb1688c6ab139ea3d0e2eb71439a33",
+            "size": 15501,
+            "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/data1.cab"
+        },
+        {
+            "fileName": "oneapi-common-vars-for-installer_p_2023.0.0.25468.msi",
+            "sha384": "ed54ee8e5897eb4d3c3e032dff141b9c30ac51c65cf21dc0f519d08c5db736c03773328506b5eb3dfcbe94a7732f755b",
+            "size": 991232,
+            "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/oneapi-common-vars-for-installer_p_2023.0.0.25468.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2023.0.0-25468"
+}

@@ -1,0 +1,73 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/dal/win/",
+    "dependencies": [
+        {
+            "id": "intel.oneapi.win.oneapi-common.vars",
+            "type": "recommended",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.licensing",
+            "type": "required",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.condaindex",
+            "type": "recommended",
+            "version": "[2023.0.0-25469,)"
+        }
+    ],
+    "display": {
+        "localized": [
+            {
+                "description": "Boost machine learning and data analytics performance.",
+                "language": "en-us",
+                "title": "Intel® oneAPI Data Analytics Library",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.dal.skleranex",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 262144,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 143682
+    },
+    "msiInfo": {
+        "productCode": "{72F07675-81B6-44F5-AD64-514DD46F76CF}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25934",
+        "upgradeCode": "{6D239279-166A-4682-8573-BD0D109FE087}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "feffa0b3a263263f68acf62d42c2458a091190309d6011aee07af1f94dcbe663cad5e2d7ef828a360d2037aabd3cecf7",
+            "size": 151009,
+            "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/data1.cab"
+        },
+        {
+            "fileName": "oneapi-dal-sklearnex-for-installer_p_2023.0.0.25934.msi",
+            "sha384": "81a036e814b3180555b4ab8b14fcb3fe89fd0efb6f03e9a5b172b55415eb666fc50b6ce61cbeb7ef0a4d79a319bae7ca",
+            "size": 262144,
+            "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/oneapi-dal-sklearnex-for-installer_p_2023.0.0.25934.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2023.0.0-25934"
+}

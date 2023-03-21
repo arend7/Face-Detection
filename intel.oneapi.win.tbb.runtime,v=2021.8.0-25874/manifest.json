@@ -1,0 +1,73 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/tbb/win/",
+    "dependencies": [
+        {
+            "id": "intel.oneapi.win.oneapi-common.vars",
+            "type": "recommended",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.licensing",
+            "type": "required",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.condaindex",
+            "type": "recommended",
+            "version": "[2023.0.0-25469,)"
+        }
+    ],
+    "display": {
+        "localized": [
+            {
+                "description": "Simplify the work of adding parallelism to complex applications, even if you’re not a threading expert. Build robust applications that abstract platform details and threading mechanisms while achieving performance that scales with increasing core count.",
+                "language": "en-us",
+                "title": "Intel® oneAPI Threading Building Blocks",
+                "version": "2021.8.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.tbb.runtime",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 577536,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 21636245
+    },
+    "msiInfo": {
+        "productCode": "{22865A5C-AC00-4F0F-9817-747261F25EEC}",
+        "productLanguage": 1033,
+        "productVersion": "21.8.25874",
+        "upgradeCode": "{B149B2C7-7D8A-440E-ACC7-4E4169BB390E}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "3bedec3233c11870198abb5f2e13817b7b4d0738034e7e84862b48b4a4da54437ad4e2225cbe100c68e3df87b2405fa5",
+            "size": 5616674,
+            "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/data1.cab"
+        },
+        {
+            "fileName": "oneapi-tbb-for-installer_p_2021.8.0.25874.msi",
+            "sha384": "6d016aec7800b2b9c2c4786e2c5a9f345aae6ddcd3899ca2462a1b4caa7997f4305b95f8726b757dbcb18cf48b5a98f5",
+            "size": 577536,
+            "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/oneapi-tbb-for-installer_p_2021.8.0.25874.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2021.8.0-25874"
+}

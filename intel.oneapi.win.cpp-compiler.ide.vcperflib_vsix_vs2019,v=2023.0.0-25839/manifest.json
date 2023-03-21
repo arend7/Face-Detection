@@ -1,0 +1,143 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/compiler_ide/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25839]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "IDE C++ VC Perflib for Visual Studio 2019",
+                "language": "en-us",
+                "title": "IDE C++ VC Perflib for Visual Studio 2019",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019",
+    "ideIntegration": {
+        "visualStudio": {
+            "supportedVersion": [
+                "2019"
+            ],
+            "vsixPackages": [
+                {
+                    "certificateFileNames": [
+                        "[Payload]/certificates/Sectigo.cer",
+                        "[Payload]/certificates/Sectigo_Public_Code_Signing_Root_R46.cer",
+                        "[Payload]/certificates/Sectigo_Public_Code_Signing_CA_R36.cer"
+                    ],
+                    "displayName": "Intel Libraries for oneAPI Integration",
+                    "fileName": "[InstallDir]/compiler_ide/2023.0.0/windows/ide_support/VS16/C++/OneAPIPerfLibForVC.vsix",
+                    "id": "5F9651CE-1310-4636-ADF4-6B56E4F58342",
+                    "vsVersion": "2019"
+                }
+            ]
+        }
+    },
+    "installCondition": {
+        "expression": "NEED_VS2019_INTEGRATION && VS2019_VC_Installed"
+    },
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 352256,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 141302
+    },
+    "msiInfo": {
+        "productCode": "{4F409816-089B-4070-BA0F-07AFE2203BB7}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25839",
+        "upgradeCode": "{6E595E74-6345-4821-ADCF-C4D4256B2019}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo.cer",
+            "sha384": "b1b597299cc34ecb78b492a6b069b4ddf54dd01380113985f5b6f48475e3bc61e8f8523d6370b496a162836d807984ba",
+            "size": 1542,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019,v=2023.0.0-25839/certificates/Sectigo.cer"
+        },
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo_Public_Code_Signing_CA_R36.cer",
+            "sha384": "411cab5eb7fa265ef14ce7384a03c29a5e0d1a4465c4f624a15669387939ba87cf64829e41fdf6359a8169a898df4e77",
+            "size": 2210,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019,v=2023.0.0-25839/certificates/Sectigo_Public_Code_Signing_CA_R36.cer"
+        },
+        {
+            "cache": true,
+            "fileName": "certificates/Sectigo_Public_Code_Signing_Root_R46.cer",
+            "sha384": "c5c041ba9d9a525519b3426d283a4719d0889e214ed8470a57cb85bce5dd7d091ffe14b66ae1a1536184300352806571",
+            "size": 1976,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019,v=2023.0.0-25839/certificates/Sectigo_Public_Code_Signing_Root_R46.cer"
+        },
+        {
+            "fileName": "data1.cab",
+            "sha384": "54eab85ae96f76a3164251f8ad7faa78ed7f38a1704d098967ceb17c52a477e66967de132081cd1ca008999a6ef685ef",
+            "size": 121888,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019,v=2023.0.0-25839/data1.cab"
+        },
+        {
+            "fileName": "ide_vcperflib_vsix_vs2019_p_2023.0.0.25839.msi",
+            "sha384": "7c43f1a3df39f6308fb8894fab20bb6dcea56875b9db61c2f9c8bab4d69a7da0c9c74cf465e76a2dc64cd817dafce4c2",
+            "size": 352256,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_vsix_vs2019,v=2023.0.0-25839/ide_vcperflib_vsix_vs2019_p_2023.0.0.25839.msi"
+        }
+    ],
+    "preRequisites": {
+        "custom": [
+            {
+                "executeAtMode": [
+                    "install"
+                ],
+                "executeAtSequence": [
+                    "after-component-selection"
+                ],
+                "expression": "!VS2019_IsComplete",
+                "ids": [
+                    {
+                        "id": "vsIncomplete",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ],
+        "messages": [
+            {
+                "id": "vsIncomplete",
+                "localized": [
+                    {
+                        "consoleDescription": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2019 during installation. Please, contact customer support: http://www.intel.com/software/products/support",
+                        "description": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2019 during installation. Please, contact customer support (<a href=\"http://www.intel.com/software/products/support\">http://www.intel.com/software/products/support</a>).",
+                        "language": "en-us",
+                        "title": "Incomplete installation of Microsoft Visual Studio* 2019 is detected."
+                    }
+                ]
+            }
+        ],
+        "visualStudioRunning": [
+            "2019"
+        ]
+    },
+    "type": "msi",
+    "version": "2023.0.0-25839"
+}

@@ -1,0 +1,116 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/compiler_ide/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25839]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "IDE C++ VC Perflib for BT Visual Studio 2022",
+                "language": "en-us",
+                "title": "IDE C++ VC Perflib for BT Visual Studio 2022",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2022",
+    "ideIntegration": {
+        "visualStudio": {
+            "supportedBuildToolsVersion": [
+                "2022"
+            ],
+            "supportedVersion": [
+                "2019"
+            ]
+        }
+    },
+    "installCondition": {
+        "expression": "NEED_VS2022_BuildTools_INTEGRATION && VS2022_BuildTools_VC_Installed"
+    },
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 356352,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 179453
+    },
+    "msiInfo": {
+        "productCode": "{5DD0E2B9-82BC-4D35-BCDB-F535C7610008}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25839",
+        "upgradeCode": "{5E0D8716-595A-47AF-B263-8F697C202022}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "VS2017BT_DIR": "[VS2017_BuildTools_InstallDir]",
+        "VS2019BT_DIR": "[VS2019_BuildTools_InstallDir]"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL",
+        "VS2017BT_DIR": "[VS2017_BuildTools_InstallDir]",
+        "VS2019BT_DIR": "[VS2019_BuildTools_InstallDir]"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "116d89c0475ca4a4c9f8b8f90b00a2b246001243e126f1fb6e7d231234ff90424600c86789cb059b4fc867279fc8fdf4",
+            "size": 37497,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2022,v=2023.0.0-25839/data1.cab"
+        },
+        {
+            "fileName": "ide_vcperflib_bt_vs2022_p_2023.0.0.25839.msi",
+            "sha384": "6dcb6b73f4d780ff8fca6979a9102ac2daca229200db4d83fe5e6dba586f80e9cd12f1b7b953596fc07b48774365061c",
+            "size": 356352,
+            "url": "https://installer.repos.intel.com/oneapi/compiler_ide/win/intel.oneapi.win.cpp-compiler.ide.vcperflib_bt_vs2022,v=2023.0.0-25839/ide_vcperflib_bt_vs2022_p_2023.0.0.25839.msi"
+        }
+    ],
+    "preRequisites": {
+        "custom": [
+            {
+                "executeAtMode": [
+                    "install"
+                ],
+                "executeAtSequence": [
+                    "after-component-selection"
+                ],
+                "expression": "!VS2022_IsComplete",
+                "ids": [
+                    {
+                        "id": "vsIncomplete",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ],
+        "messages": [
+            {
+                "id": "vsIncomplete",
+                "localized": [
+                    {
+                        "consoleDescription": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2022 during installation. Please, contact customer support: http://www.intel.com/software/products/support",
+                        "description": "Installation can continue; however, Intel® oneAPI DPC++/C++ Compiler & Intel® C++ Compiler Classic, Intel® oneAPI DPC++/C++ Compiler, Intel® Fortran Compiler & Intel® Fortran Compiler Classic, Intel® VTune™ Profiler, Intel® Inspector and Intel® Advisor will not be integrated into Microsoft Visual Studio* 2022 during installation. Please, contact customer support (<a href=\"http://www.intel.com/software/products/support\">http://www.intel.com/software/products/support</a>).",
+                        "language": "en-us",
+                        "title": "Incomplete installation of Microsoft Visual Studio* 2022 is detected."
+                    }
+                ]
+            }
+        ],
+        "visualStudioRunning": [
+            "2022"
+        ]
+    },
+    "type": "msi",
+    "version": "2023.0.0-25839"
+}

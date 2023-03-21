@@ -1,0 +1,69 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/condaindex/win/",
+    "coexistence": {
+        "upgrades": [
+            {
+                "action": "remove",
+                "id": "intel.oneapi.win.condaindex.product",
+                "version": "(,2023.0.0-25469]"
+            },
+            {
+                "action": "remove",
+                "version": "(,2023.0.0-25469]"
+            }
+        ]
+    },
+    "display": {
+        "localized": [
+            {
+                "description": "oneAPI Common Install components",
+                "language": "en-us",
+                "title": "oneAPI Common Install components",
+                "version": "2023.0.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.condaindex",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 323584,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 777752
+    },
+    "msiInfo": {
+        "productCode": "{F492F4A2-AF97-4C9C-80AB-4F3940ABF232}",
+        "productLanguage": 1033,
+        "productVersion": "23.0.25469",
+        "upgradeCode": "{9358721C-6D38-4B6B-9A22-2100910F0A75}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "f73af964c73463b76ac78865594b94943fa58cb7228ae2377c1a10644d02a2f248db78b85a2c13368b3557d9604379a4",
+            "size": 339699,
+            "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex,v=2023.0.0-25469/data1.cab"
+        },
+        {
+            "fileName": "oneapi-condaindex-for-installer_p_2023.0.0.25469.msi",
+            "sha384": "5ceb60b2b0f3c2b0905f456733dae91fd49f577bb79432c984039f59e9784cbfdd88d1dd9d1715619ac3c44c8f4386eb",
+            "size": 323584,
+            "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex,v=2023.0.0-25469/oneapi-condaindex-for-installer_p_2023.0.0.25469.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2023.0.0-25469"
+}

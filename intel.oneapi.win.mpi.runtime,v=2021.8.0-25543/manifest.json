@@ -1,0 +1,73 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/mpi/win/",
+    "dependencies": [
+        {
+            "id": "intel.oneapi.win.oneapi-common.vars",
+            "type": "recommended",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.licensing",
+            "type": "required",
+            "version": "[2023.0.0-25468,)"
+        },
+        {
+            "id": "intel.oneapi.win.condaindex",
+            "type": "recommended",
+            "version": "[2023.0.0-25469,)"
+        }
+    ],
+    "display": {
+        "localized": [
+            {
+                "description": "Use this standards-based MPI implementation to deliver flexible, efficient, scalable cluster messaging on Intel® architecture. Compatible with the open-source MPICH implementation.",
+                "language": "en-us",
+                "title": "Intel® MPI Library",
+                "version": "2021.8.0"
+            }
+        ]
+    },
+    "id": "intel.oneapi.win.mpi.runtime",
+    "installSize": {
+        "additionalDirs": {
+            "[SystemFolder]": 880640,
+            "[TempFolder]": 2097152
+        },
+        "installDir": 24650322
+    },
+    "msiInfo": {
+        "productCode": "{563C8A34-7F50-4C79-A034-FF02AE97E7DD}",
+        "productLanguage": 1033,
+        "productVersion": "21.8.25543",
+        "upgradeCode": "{B5130046-629E-4A70-986F-6D5CD924CA00}"
+    },
+    "msiInstallProperties": {
+        "ARPSYSTEMCOMPONENT": "1",
+        "INSTALLDIR": "[InstallDir]",
+        "PSET_INSTALL_MODE": "install",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress"
+    },
+    "msiRemoveProperties": {
+        "MSIRESTARTMANAGERCONTROL": "Disable",
+        "PSET_UI_MODE": "Full",
+        "REBOOT": "ReallySuppress",
+        "REMOVE": "ALL"
+    },
+    "payloads": [
+        {
+            "fileName": "data1.cab",
+            "sha384": "19ecc1a09707a45a8f51708bcc4ec43b81b750648cadde739cf5b876e1fec031f2fbdc2947d2944304e723de91babf91",
+            "size": 6928224,
+            "url": "https://installer.repos.intel.com/oneapi/mpi/win/intel.oneapi.win.mpi.runtime,v=2021.8.0-25543/data1.cab"
+        },
+        {
+            "fileName": "oneapi-mpi-for-installer_p_2021.8.0.25543.msi",
+            "sha384": "76006c7d9b85e19fa923d0026281fd7b7d19dad52fab4ae05381d12d9138659b1746571e7dbeca162d616496c47bbb1b",
+            "size": 880640,
+            "url": "https://installer.repos.intel.com/oneapi/mpi/win/intel.oneapi.win.mpi.runtime,v=2021.8.0-25543/oneapi-mpi-for-installer_p_2021.8.0.25543.msi"
+        }
+    ],
+    "type": "msi",
+    "version": "2021.8.0-25543"
+}
