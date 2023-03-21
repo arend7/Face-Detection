@@ -38,7 +38,9 @@ How to Choose the Right Face Recognition Machine Learning Model
 •	What is the purpose of this model? Is it for personal or commercial use? Do you need to identify people in real-time or only after they've been captured on video or photo?
 •	How accurate do you need it to be? In other words, how close does the system need to get before you can say "yes" with confidence that two faces belong together (or not)?
 •	Face recognition models vary significantly in terms of their accuracy requirements and cost/scalability tradeoffs. You must choose one that fits with your project goals so that neither money nor time goes wasted on unnecessary features.
-DOCUMENTS AND PRESENTATION:
+
+# DOCUMENTS AND PRESENTATION:
+
 file:///C:/Users/Sam%20Jackson/OneDrive/Desktop/IOT%20INNOVATHON%20PROJECT%20FACE%20RECOGNITION.pdf
 
 
