@@ -25,6 +25,8 @@ Best Practices for Implementing Face Recognition Machine Learning ModelBest Prac
 ![image](https://user-images.githubusercontent.com/128407097/226568211-25d9663b-1390-4a01-9877-d89ec7cb36e7.png)
 
 ![image](https://user-images.githubusercontent.com/128407097/226568317-654dfa1e-25b4-4bfc-8219-b500c059d9f1.png)
+![Screenshot (270)](https://user-images.githubusercontent.com/128407097/226574124-198ad909-f6f1-436c-b133-e24cd5979275.png)
+
 
  
 
