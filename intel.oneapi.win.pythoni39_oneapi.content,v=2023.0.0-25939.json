@@ -1,0 +1,54 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/python/win/",
+    "id": "intel.oneapi.win.pythoni39_oneapi.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.python3",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.python3,v=2023.0.0-25939/manifest.json",
+                    "preDownload": true,
+                    "sha384": "32395567d2f027c8508fe9886045d4bd47c9774c657146b611ae47e7c35465518114389db06ebd7e8e36719d2a9da537",
+                    "size": 4139,
+                    "url": "https://installer.repos.intel.com/oneapi/python/win/intel.oneapi.win.python3,v=2023.0.0-25939/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.python3,v=2023.0.0-25939/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "8a16c9a2c6ac49d7c4cf4fdf14a105a552525327aa50844c39977c96877b1fc976bba63640785b806aaaefe62e2eb92c",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/python/win/intel.oneapi.win.python3,v=2023.0.0-25939/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25939"
+        },
+        {
+            "id": "intel.oneapi.win.python3.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.python3.product,v=2023.0.0-25939/manifest.json",
+                    "preDownload": true,
+                    "sha384": "f51471e4a9d9a46b57e00369353b70ff0981c402e2029cb202cbc5875b649786e68c9d2bd9243b80d4a2fe80d8638e46",
+                    "size": 174158,
+                    "url": "https://installer.repos.intel.com/oneapi/python/win/intel.oneapi.win.python3.product,v=2023.0.0-25939/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.python3.product,v=2023.0.0-25939/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "a6bb7c680e2859ccc5565522b893a77d817d9f1202f31016a317244fc5a53cab418aa4ae0de961d669f154d5a54b928f",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/python/win/intel.oneapi.win.python3.product,v=2023.0.0-25939/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25939"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25939"
+}

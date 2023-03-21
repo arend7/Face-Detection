@@ -1,0 +1,238 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/compiler/win/",
+    "id": "intel.oneapi.win.compiler.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.compiler.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compiler.product,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "20f7fb512c666953b01f3b391f3a98c0cd33ddb92241641f8f7caa84e3eed59be728bfaad58759fa147f76c572d78c1a",
+                    "size": 159586,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compiler.product,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compiler.product,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "8815484d0dd62b5e04d927355ee2b92db09f6a12268d147615aa3331fa4474ff7d83d6efe36f6327b2a4308d08c2f179",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compiler.product,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.compilers-common",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compilers-common,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "d121fcea7da4a350ca0ec6c80bc720d8091658625834299d4d1c32eab6e134dddae5e2b3412a02bf606cc19f22786f0c",
+                    "size": 2566,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compilers-common,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compilers-common,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "956d19573e7eb8159d91f550a89ad70c305e5e52d47e5070485b5e0386404aca3ba7ad20c9a24c8531bf5bf6d92adc8f",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compilers-common,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.compilers-common-runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compilers-common-runtime,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "aee957c20b10518a16fb68fe15e91f43584b13a9dad001622eb0d015db153f5fd6ea9c74ad448b089df4aa8616a0da65",
+                    "size": 2260,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compilers-common-runtime,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.compilers-common-runtime,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "e1e0c6bfe9dc434df59a0411f27a00bcf1a2889197c0af32d3b420c98c4b6732e3723dd74637c5e32760bcc69fb9e4cc",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.compilers-common-runtime,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.cpp-base-pro-common-runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-base-pro-common-runtime,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "9b419fbc42a2f2f921f49d1414423cf0cb0b32bf811dc62b83321fc8ce7a93cfb42901932ec96574db12ffeca22a1a2c",
+                    "size": 2300,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-base-pro-common-runtime,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-base-pro-common-runtime,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "34ae58baa3582d9a773cec3feeb37e5b1d75cc4f4262671f6b8b2f15ced2bd4fea1674ba7ea0a3f538b3f221de252f78",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-base-pro-common-runtime,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.cpp-compiler",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-compiler,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "c2b5aaccde4e7550d0a0de2dcc01a0ae41555bc1dd882535d68b404739016f6130620439fb91ae00ffaab3ff54810563",
+                    "size": 21682,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-compiler,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-compiler,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "9083a8c553664e2fd3c95970ec1c75c97af5c3300c306ee4aa1be7e7d5072b994367287a0cf9fa4f8d94b80ea8864335",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-compiler,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.cpp-dpcpp-common",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-dpcpp-common,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "12640df3116f45151bcfead0f8cdcfceebb3936490c27e0d81fe08c9e2036d56c22f3c3ca052d3b4507cdd59758b8b6f",
+                    "size": 2496,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-dpcpp-common,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.cpp-dpcpp-common,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "3bee39ca4a83fc24d1f5e0f6eae04b016d122852e18e9e91edd420a0f8e6c5e5e0ff0493e7a752c618f0c256229367ab",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.cpp-dpcpp-common,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.dpcpp-compiler",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dpcpp-compiler,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "f6f01a23639e7ef4ddae39f5026f154b8402f28744d45727e25a89e7af834b7b74b759c73a3dbb04e0b521b8248c902f",
+                    "size": 21596,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.dpcpp-compiler,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dpcpp-compiler,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "2aef2c202c27c09bbb9d29cf1ea47eea81142d79308e47a952689e1aed3ae5d1ddeb4069cc25a6867e2d9dfcfbc7d30f",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.dpcpp-compiler,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.ifort-compiler",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ifort-compiler,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "901d2907a22149c2954320d455f05bfb38368ae75f31c2a8c39b8a519a3bfb92a9e526df448777b9aa013488f1bb4543",
+                    "size": 13986,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.ifort-compiler,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ifort-compiler,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "72ae328739567d9dc476b9ec7dbf86d2525d57d5fcff169c8e44c6dbd0798df3e284c7c72ab335ec6f05b580104e288e",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.ifort-compiler,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.ifort-compiler-ide-reg",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ifort-compiler-ide-reg,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "b89cd6f5040b20db55730c3fc0b055ab6d4189bd6ddd78853a24a624233c1d013f60a2b6f6181e333246da75119025ed",
+                    "size": 2114,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.ifort-compiler-ide-reg,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ifort-compiler-ide-reg,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "1852d797c86af8402adb073a572464b097dc2a76570c24f72fa09855544e4bed92d7abef0191a1fc1174d293bdadb979",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.ifort-compiler-ide-reg,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        },
+        {
+            "id": "intel.oneapi.win.openmp",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.openmp,v=2023.0.0-25922/manifest.json",
+                    "preDownload": true,
+                    "sha384": "5f08e4a844fd011c2eb4634c48d6b490bf44ba95531b239ee29548b6a90dcd97cb278ddf98e2acccd5e4913a62bc89b8",
+                    "size": 2513,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.openmp,v=2023.0.0-25922/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.openmp,v=2023.0.0-25922/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "62107083d11e66e1a22c2e84161e6b431e2f34134c7fd09bc5ed959e9cc5b4f045199cf416235369a0a32bcda80e293b",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/compiler/win/intel.oneapi.win.openmp,v=2023.0.0-25922/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25922"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25922"
+}

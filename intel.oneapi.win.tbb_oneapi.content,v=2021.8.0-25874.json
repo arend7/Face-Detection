@@ -1,0 +1,77 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/tbb/win/",
+    "id": "intel.oneapi.win.tbb_oneapi.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.tbb.devel",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.devel,v=2021.8.0-25874/manifest.json",
+                    "preDownload": true,
+                    "sha384": "2ccf66e9509b4137fa2ee57462a151c2a8cec9b6168e89a68de1a1797331b7d1806462daf74b2aa275deeac84669ba45",
+                    "size": 3155,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.devel,v=2021.8.0-25874/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.devel,v=2021.8.0-25874/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "9797464c6ce9ed2b1dd335f11a263828950d071aad796dc246c8fdcdafe849e90b041fa382c6eb9263ae9b5f19bed00f",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.devel,v=2021.8.0-25874/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2021.8.0-25874"
+        },
+        {
+            "id": "intel.oneapi.win.tbb.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.product,v=2021.8.0-25874/manifest.json",
+                    "preDownload": true,
+                    "sha384": "96214041eef42af761a0362571c311ed7fa6b066108cf819304cb05ce91b5ba260aeb972ffefb1bd44948211eaf01855",
+                    "size": 165945,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.product,v=2021.8.0-25874/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.product,v=2021.8.0-25874/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "fd8be10baefb402c28fc117cf82a85eefe08018f40cbcd1c33a3aa3213a6640f5fad941c861c63237666b45ad0f96e7f",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.product,v=2021.8.0-25874/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2021.8.0-25874"
+        },
+        {
+            "id": "intel.oneapi.win.tbb.runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/manifest.json",
+                    "preDownload": true,
+                    "sha384": "db1fff687efd5f29f7ef0b331ff862574cb2276526b235a236bf790dc43a3b24692b2b0972224709d4a765d86ab5671b",
+                    "size": 2729,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "11a5ffe13ebc2fc63bb1c7feee2681504add16a29db679e4ce191a5c141d706fee2730c451914125b9a16284f1e4611c",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/tbb/win/intel.oneapi.win.tbb.runtime,v=2021.8.0-25874/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2021.8.0-25874"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2021.8.0-25874"
+}

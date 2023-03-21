@@ -1,0 +1,54 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/condaindex/win/",
+    "id": "intel.oneapi.win.oneapi_common_installer_components.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.condaindex",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.condaindex,v=2023.0.0-25469/manifest.json",
+                    "preDownload": true,
+                    "sha384": "7d5d254a813f51fb6533cfb03ef79122839b11a096b10b651f032656a5aafbc182c3478a93452cad7cd4e9ae49c8ce5d",
+                    "size": 2381,
+                    "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex,v=2023.0.0-25469/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.condaindex,v=2023.0.0-25469/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "9df6b3310b76b18c97e88280865ec0b944304ef4f5127ac9d6d9efc472f0946f9bd246a09f368b387825e11b683532bb",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex,v=2023.0.0-25469/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25469"
+        },
+        {
+            "id": "intel.oneapi.win.condaindex.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.condaindex.product,v=2023.0.0-25469/manifest.json",
+                    "preDownload": true,
+                    "sha384": "95b42c5340e6072948643de875a18a439643025284370bfd2b3812280947e49854293f20b9b01db8de8ae53b414fb3b2",
+                    "size": 159603,
+                    "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex.product,v=2023.0.0-25469/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.condaindex.product,v=2023.0.0-25469/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "828da011c27f871de900c0c5563c0395d92cc9735346a05e93e6ad6c02ea2a22f5c9a4fe9678038ddf04d6a76051dc71",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/condaindex/win/intel.oneapi.win.condaindex.product,v=2023.0.0-25469/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25469"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25469"
+}

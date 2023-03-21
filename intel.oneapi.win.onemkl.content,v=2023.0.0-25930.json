@@ -1,0 +1,100 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/mkl/win/",
+    "id": "intel.oneapi.win.onemkl.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.mkl.32bit",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.32bit,v=2023.0.0-25930/manifest.json",
+                    "preDownload": true,
+                    "sha384": "75036dd9680193bb064fb53803845689ee65132bb984f69c430d4f3ed056bc736f3b0a1be65f5a98f8ccf4a7f396dc2c",
+                    "size": 4415,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.32bit,v=2023.0.0-25930/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.32bit,v=2023.0.0-25930/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "217f5a7077af39cb384117000f99572e7f0bacd3f18f7f51638ea151f2d77bd297b13b7852959f97bfac87a60181c746",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.32bit,v=2023.0.0-25930/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25930"
+        },
+        {
+            "id": "intel.oneapi.win.mkl.devel",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.devel,v=2023.0.0-25930/manifest.json",
+                    "preDownload": true,
+                    "sha384": "3ef70887d9a9724a5807625bafd0be3dd7587ddcd9555a7d5a90538f6663cb904198bcffd2191855d8e25423605f379d",
+                    "size": 5759,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.devel,v=2023.0.0-25930/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.devel,v=2023.0.0-25930/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "b44fbc62c3f4dc6d074b434b397af907a564082beddf2c2b5509d359b0185def65faf1537ca6011fbd9548065c41aa8a",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.devel,v=2023.0.0-25930/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25930"
+        },
+        {
+            "id": "intel.oneapi.win.mkl.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.product,v=2023.0.0-25930/manifest.json",
+                    "preDownload": true,
+                    "sha384": "9affa1c5a1707dded627430315be985f3aad2d805941b55513ee7e18bfdf6167e26a2335d7b864066451b8efb60c016f",
+                    "size": 165930,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.product,v=2023.0.0-25930/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.product,v=2023.0.0-25930/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "7e8d8471aa8e32ed344b2d04cf2ebeb17e19c9785f37b9b1d454cadbe30b453a3befef97419271b0c5bbbd64567e4ae9",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.product,v=2023.0.0-25930/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25930"
+        },
+        {
+            "id": "intel.oneapi.win.mkl.runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.runtime,v=2023.0.0-25930/manifest.json",
+                    "preDownload": true,
+                    "sha384": "c4b87ea0a2552212460e4131714ea83205acbe7f8a03a55157a7cb8a8af81722fd3f192b26254f962b942a8ef5ffbe3c",
+                    "size": 5003,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.runtime,v=2023.0.0-25930/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.mkl.runtime,v=2023.0.0-25930/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "040637898f370b00353cfb4a8c0b6fe7816f57fecab340707638f2d28afade7b768f29b8507d7f089692f21930111ec1",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/mkl/win/intel.oneapi.win.mkl.runtime,v=2023.0.0-25930/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25930"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25930"
+}

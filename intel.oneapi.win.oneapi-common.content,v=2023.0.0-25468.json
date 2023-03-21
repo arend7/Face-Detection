@@ -1,0 +1,77 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/oneapi_common/win/",
+    "id": "intel.oneapi.win.oneapi-common.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.oneapi-common.licensing",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/manifest.json",
+                    "preDownload": true,
+                    "sha384": "905fd78cf9e32a30b56478947219453fa5a9a1b49132287a6fe6fdb75502a80b365750b9d062c71f00b276b61a1afb89",
+                    "size": 2057,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "5da4653d306545904108ae21354b397ef8174f6cd8a3e4caaac8d9caa0c8a1f50a92628234d8514551379b25e389fcc7",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.licensing,v=2023.0.0-25468/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25468"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.product,v=2023.0.0-25468/manifest.json",
+                    "preDownload": true,
+                    "sha384": "b94883acf15611cba0131b72f92c19a12061654000fc4addc623a71fa98a3504fd441cbc03071689c8bf2dbc79564616",
+                    "size": 160497,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.product,v=2023.0.0-25468/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.product,v=2023.0.0-25468/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "30b8b7fcafadda47c3c3fc1a7fdf181d7a8413c1573bab531c43782d0acd31988679f245eb0f4b820ce1baae337372f7",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.product,v=2023.0.0-25468/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25468"
+        },
+        {
+            "id": "intel.oneapi.win.oneapi-common.vars",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/manifest.json",
+                    "preDownload": true,
+                    "sha384": "cd67b5a89e4892518408c2e2bd214b26d78e5055164bef3030accc576178e6b8bf721c42b3f1d6d3b9273e9d8dc26b50",
+                    "size": 2203,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "e3b9a96b65584976f71d8471f4766540f641ce0e8daaa7bfb6a76814e4bf8da622ca93f1642802c184a32f27e50b632e",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/oneapi_common/win/intel.oneapi.win.oneapi-common.vars,v=2023.0.0-25468/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25468"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25468"
+}

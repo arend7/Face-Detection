@@ -1,0 +1,123 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/dal/win/",
+    "id": "intel.oneapi.win.daal_oneapi.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.dal.daal4py",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/manifest.json",
+                    "preDownload": true,
+                    "sha384": "e4a68af90388668a1d267c9a8a97f744b30219bb57ad48b66bbd292c3b057e581288bd89a73e8911e33d89e341f0386f",
+                    "size": 2540,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "0e5926a7873912e1dfe04cd761565676f22834908a06a51b66db39eea487a73ebd5583b37c08304045b3410f7237bf92",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.daal4py,v=2023.0.0-25934/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25934"
+        },
+        {
+            "id": "intel.oneapi.win.dal.devel",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.devel,v=2023.0.0-25934/manifest.json",
+                    "preDownload": true,
+                    "sha384": "41439158d2bb46c80ffcfb0ea8d6a98d66e8e874a4e2e54f8a095c171ffe64b70f0f5d35f5c99fbf7d330a516b04d522",
+                    "size": 6776,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.devel,v=2023.0.0-25934/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.devel,v=2023.0.0-25934/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "93553c32a350154b74e67c455acfe1cd6d7020fd79a5c00e7e10c6a2e9dfb1bc14a885391a1f3735fe7abdbeefdb1203",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.devel,v=2023.0.0-25934/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25934"
+        },
+        {
+            "id": "intel.oneapi.win.dal.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.product,v=2023.0.0-25934/manifest.json",
+                    "preDownload": true,
+                    "sha384": "3f187e63ce7537293f4abedf68e7814905f9d642a17565d4730075f7229486499002872bcf3d970524205218bce477f6",
+                    "size": 165909,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.product,v=2023.0.0-25934/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.product,v=2023.0.0-25934/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "7bbacfc115eea9ed60e819b29cf85cb18e8c5ad10009ed99826b021ccdad3e554e8f086bc72e1100a9977c8c4885cd28",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.product,v=2023.0.0-25934/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2023.0.0-25934"
+        },
+        {
+            "id": "intel.oneapi.win.dal.runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.runtime,v=2023.0.0-25934/manifest.json",
+                    "preDownload": true,
+                    "sha384": "b5f6e5947837e0a3d97953b4fb1b9ae96cd1073371a7740a69495d00f64a2b9a2b394e2d0413609239ec46c015885201",
+                    "size": 3182,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.runtime,v=2023.0.0-25934/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.runtime,v=2023.0.0-25934/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "16ae35340878e81b6632c4510a56701d3da8e74ec21bd32e6f43d1d11039aeab47a0ee91940ce504c776335a19bcf459",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.runtime,v=2023.0.0-25934/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25934"
+        },
+        {
+            "id": "intel.oneapi.win.dal.skleranex",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/manifest.json",
+                    "preDownload": true,
+                    "sha384": "04d151c47da923bd0cd7d8725d1267052b5f99c0b2db07cc3edc7d7e82650d6cac408dfd1f37e619b9fcd53f381b2818",
+                    "size": 2548,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "05d3795fe5ce5af12ec99c059485b4e376d533c98434154a7c2f39ad2e2a23bd79f83c047b1fa2fda812eb5d43c68821",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/dal/win/intel.oneapi.win.dal.skleranex,v=2023.0.0-25934/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2023.0.0-25934"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2023.0.0-25934"
+}

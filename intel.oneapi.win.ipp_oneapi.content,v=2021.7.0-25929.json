@@ -1,0 +1,100 @@
+{
+    "baseUrl": "https://installer.repos.intel.com/oneapi/ipp/win/",
+    "id": "intel.oneapi.win.ipp_oneapi.content",
+    "packages": [
+        {
+            "id": "intel.oneapi.win.ipp.32bit",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.32bit,v=2021.7.0-25929/manifest.json",
+                    "preDownload": true,
+                    "sha384": "7701cf65da5be0897bdb58b77e7882d39757b135b6428ee9d3d2bf9b32b396983c901e3789ab467d44fe6d92439694ce",
+                    "size": 4338,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.32bit,v=2021.7.0-25929/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.32bit,v=2021.7.0-25929/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "b3fd6ec5a198fac1523c75204389c89b2d9c721912376737f84f1ed3a6a7ab3a547d8477ea099bea8ef6f086662aace9",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.32bit,v=2021.7.0-25929/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2021.7.0-25929"
+        },
+        {
+            "id": "intel.oneapi.win.ipp.devel",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.devel,v=2021.7.0-25929/manifest.json",
+                    "preDownload": true,
+                    "sha384": "fbdc23f0a530e386e73189b08c380e11131f338ffe5671099341a73ff34703c8db7e6d7fdf2d2a13c103df19d7f86bbf",
+                    "size": 2999,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.devel,v=2021.7.0-25929/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.devel,v=2021.7.0-25929/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "6bc4f997130c5212b1f64c70663dfe56fc97d6a15f333b3e6ab75662fb639c72e04ff0a3f08e6c9327d07409843f8ab3",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.devel,v=2021.7.0-25929/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2021.7.0-25929"
+        },
+        {
+            "id": "intel.oneapi.win.ipp.product",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.product,v=2021.7.0-25929/manifest.json",
+                    "preDownload": true,
+                    "sha384": "bd0f1efe00f54c2fccaf16c0da151a270d564d9e8625dd7b24f2c23c9ed540352d51103532ade44c73dfcc50985324c9",
+                    "size": 161808,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.product,v=2021.7.0-25929/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.product,v=2021.7.0-25929/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "a4d52c2d77c5c20adf575f7ec03f692451bea0b1724e6163dd27d42d09b8f0e0d163258869e831aae992ae5755311465",
+                    "size": 10141,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.product,v=2021.7.0-25929/manifest.json.sig"
+                }
+            ],
+            "type": "product",
+            "version": "2021.7.0-25929"
+        },
+        {
+            "id": "intel.oneapi.win.ipp.runtime",
+            "payloads": [
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.runtime,v=2021.7.0-25929/manifest.json",
+                    "preDownload": true,
+                    "sha384": "f29990ac517ab09b1d29dfddc55c7cb0906ccae8b482992789aa2513777ac02a413212c9b073fff3b18f7c021db07be1",
+                    "size": 2876,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.runtime,v=2021.7.0-25929/manifest.json"
+                },
+                {
+                    "cache": true,
+                    "fileName": "intel.oneapi.win.ipp.runtime,v=2021.7.0-25929/manifest.json.sig",
+                    "preDownload": true,
+                    "sha384": "a76121079c266204de8dc1dfc5e7a290f9f823d0f4fe080b0bf8f029325b5ddc29b8edd016cde29b26d5b0370837e306",
+                    "size": 10142,
+                    "url": "https://installer.repos.intel.com/oneapi/ipp/win/intel.oneapi.win.ipp.runtime,v=2021.7.0-25929/manifest.json.sig"
+                }
+            ],
+            "type": "msi",
+            "version": "2021.7.0-25929"
+        }
+    ],
+    "type": "contentmanifest",
+    "version": "2021.7.0-25929"
+}
